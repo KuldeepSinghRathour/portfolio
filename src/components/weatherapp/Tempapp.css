@@ -1,0 +1,73 @@
+.box-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.box {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack contents vertically */
+    justify-content: center; /* Center vertically */
+    align-items: stretch; /* Center horizontally */
+    background-image: linear-gradient(45deg, rgba(129, 227, 207, 0.058), rgba(129, 227, 207, 0.262));
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 3px solid red; */
+    border-radius: 40px;
+    width: 40vw;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.inputData{
+    width: 90%;
+    /* border: 2px solid blue; */
+    margin: auto;
+}
+.inputData input{
+    width: 70%;
+    margin: 20px auto;
+    /* margin-top: 20px; */
+    padding-left: 10px;
+    height: 3rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+}
+.In-box{
+    width:"50%";
+    margin:"auto";
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width:768px) {
+    .box {
+        width: 80vw;
+        height: 50vh;
+} 
+}
+
+@media only screen and (max-width:480px) {
+    .box {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        /* justify-content: space-evenly; */
+}
+
+}

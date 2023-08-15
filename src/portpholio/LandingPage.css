@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main-container{
+    background-color: black;
+    color: white;
+    /* height: 70vh; */
+}
+.main-container > .lnavigation{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 250px;
+    flex-wrap: wrap;
+    /* background-color: azure; */
+    padding-top: 2rem;
+}
+.main-container > .lnavigation ul{
+    list-style-type: none;
+    /* display: inline; */
+}
+.main-container > .lnavigation > ul > li{
+    display: inline;
+
+}
+.main-container > .lnavigation > ul > li a{
+    text-decoration: none;
+    color: #30d3df;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 10px;
+}
+.main-container > .lnavigation > ul > li a:hover{
+    color: aquamarine;
+}
+.sec-1{
+    background-color: rgb(46, 44, 42);
+    height: 90vh;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-1-left{
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+    /* object-fit: cover; */
+    overflow: hidden;
+}
+.sec-1-left img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.sec-1-right{
+    width: 45%;
+    height: 100%;
+    padding-top: 2rem;
+    /* background-color: red; */
+    overflow: hidden;
+    /* object-fit: cover; */
+    text-align: center;
+}
+.sec-1-right > span > p:first-child{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        to right, #82cdd4, #b3bd55);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+}
+.sec-1-right > span > p:nth-child(2){
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        to right,  #b3bd55,#60989d);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+}
+.sec-1-right > span > p:nth-child(3){
+    font-size: 5rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        to right,  #f3c140,#30e88c);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+}
+.sec-1-right > span > p:nth-child(4){
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        to right, #60989d, #b3bd55);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+}
+/* ------------------------------------------------------------- */
+.sec-2 {
+    display: flex;
+  flex-wrap: wrap; /* Wrap elements to new rows if they don't fit in a row */
+  justify-content: space-between;
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+/* .sec-2 > div > h2 {
+    display: block;
+    
+} */
+.sec-2-heading {
+    /* margin: 20px 0; Add margin for spacing */
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #60989d, #b3bd55);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+.sec-2-left {
+    /* display: flex; */
+    margin: auto;
+    width: 18rem;
+    height: 25rem;
+    background-color: rgba(104, 110, 115, 0.459);
+}
+.sec-2-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.thumbnail {
+    width: 80%;
+    height: 50%;
+    /* background-color: #b3bd55; */
+    margin: auto;
+    margin-top: 40px;
+}
+.thumbnail > img {
+    width: 100%;
+    height: 100%;
+
+}
+.sec-2-left > p {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #60989d, #b3bd55);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.sec-2-left > a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid rgb(122, 166, 175);
+    padding: 0.5rem 2rem;
+    color: aliceblue;
+    background-color: #397b71;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 10px rgba(159, 255, 247, 0.739);
+}
